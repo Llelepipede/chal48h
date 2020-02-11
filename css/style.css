@@ -1,0 +1,66 @@
+.header-back{
+    background-color: #2C3E50;
+    ;
+    width: 100%;
+    height: 140px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.form-title{
+    text-align: center;
+    color: grey;
+    letter-spacing: 1.5px;
+    margin-bottom: 40px;
+}
+
+.formulaire-form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.formulaire-form .form-group label {
+    margin: 20px 0px 10px 0px;
+    display: block;
+}
+
+.formulaire-form .form-group input {
+    border: 1px solid grey;
+    height: 30px;
+    width: 100%;
+}
+
+.formulaire-form .champ input {
+    border: 1px solid grey;
+    height: 100px;
+    width: 100%;
+}
+
+.formulaire-form .form-group input:focus {
+    border: 1px solid red;
+    outline: none;
+}
+
+.formulaire-form .form-group .champ {
+    border: 1px solid grey;
+    margin-top: 0px;
+    height: 155px;
+    width: 100%;
+}
+
+.cformulaire-form .form-group .champ:focus {
+    border: 1px solid red;
+    outline: none;
+}
+
+.formulaire-form .form-group button{
+    border: 5px solid black;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    transition: 1s;
+}
+
