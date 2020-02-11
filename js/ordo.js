@@ -15,11 +15,19 @@ function $_GET(param) {
 
 
 function getelementbyurl() {
-    var name = $_GET['nom'];
-    var lastname = $_GET['prenom'];
-    $_GET['tel'];
-    $_GET['email'];
-    $_GET['id-medecin'];
-    $_GET['ordo'];
-    
+    var name = $_GET('nom');
+    var lastname = $_GET('prenom');
+    var tele = $_GET('tel');
+    var mail = $_GET('email');
+    var rpps = $_GET('id-medecin');
+    var ordonnance = $_GET('ordo');  
+
+    document.getElementById("nom").innerHTML = name;
+    document.getElementById("prenom").innerHTML = lastname;
+    document.getElementById("rpps").innerHTML = rpps;
+    document.getElementById("email").innerHTML = mail;
+    document.getElementById("tel").innerHTML = tele;
+    document.getElementById("ordo").innerHTML = ordonnance;
 }
+
+
